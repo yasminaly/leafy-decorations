@@ -3,6 +3,11 @@ html {
 }
 
 .masthead {
+  background-image: url(../images/www/banner.svg);
+  background-repeat: repeat;
+  border: .3px solid #467366;
+
+
 
 }
 
@@ -23,11 +28,17 @@ html {
 }
 
 .banner {
+  background-image: url(../images/www/background.jpg);
 
 }
 
 .banner-content {
+  color: #fff;
 
+}
+
+h1 {
+  color: #fff;
 }
 
 @media only screen and (min-width: 60em) {
