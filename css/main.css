@@ -30,7 +30,7 @@ html {
 
 .nav a:hover {
   background-color: #fff;
-  color: #467366;
+  color: #145b1d;
   background-image: url("../images/www/leaf-icon.svg");
   background-position: .75em;
   background-repeat: no-repeat;
@@ -50,7 +50,7 @@ html {
   padding-top: 300px;
   background-image: url("../images/www/two-leaves.svg");
   background-repeat: no-repeat;
-  background-position: 10px 180px;
+  background-position: 10px 170px;
   background-size: 100px;
 
 }
