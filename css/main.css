@@ -38,16 +38,15 @@ html {
 
 .banner {
   background:
-  url(../images/www/banner.jpg) no-repeat center top,
-  url(../images/www/two-leaves.svg) no-repeat center;
-  padding-top: 66.54%;
+  url(../images/www/banner.jpg) no-repeat center bottom / cover;
+  background: linear-gradient(to rgba(16, 52, 41, .8),rgba(16, 52, 41, 0));
   background-position: top center;
-
-
 }
 
 .banner-content {
   color: #fff;
+  padding-top: 450px;
+  background-image:url(../images/www/two-leaves.svg)no repeat;
 
 }
 
