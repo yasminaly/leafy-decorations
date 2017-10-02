@@ -34,15 +34,13 @@ html {
   background-image: url("../images/www/leaf-icon.svg");
   background-position: .75em;
   background-repeat: no-repeat;
-
-
+  background-size: 3rem;
 }
 
 .banner {
-  background-image: linear-gradient(to bottom rgba(16, 52, 41, 0),rgba(16, 52, 41, .8)) url("../images/www/banner.jpg");
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background:
+    linear-gradient(to bottom, rgba(16, 52, 41, 0), rgba(16, 52, 41, .8)),
+    url("../images/www/banner.jpg") no-repeat center bottom / cover;
 }
 
 .banner-content {
@@ -50,7 +48,7 @@ html {
   padding-top: 300px;
   background-image: url("../images/www/two-leaves.svg");
   background-repeat: no-repeat;
-  background-position: 10px 185px;
+  background-position: 10px 180px;
   background-size: 100px;
 
 }
