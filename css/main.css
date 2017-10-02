@@ -9,8 +9,6 @@ html {
   background-size: 64px;
   border: 3px solid #467366;
 
-
-
 }
 
 .logo {
@@ -24,29 +22,36 @@ html {
 .nav a {
   text-decoration: none;
   display: inline-block;
-  font-size: 1rem;
-  background-color:#588477;
+  background-color: #467366;
   color: white;
-  padding: .4em 0.75em 0.3em;
-  border-radius: 3px;
-  border-color: #588477;
+  border: 3px #2d5a4d solid;
+  border-radius: 8px;
 }
 
 .nav a:hover {
+  background-color: #fff;
+  color: #467366;
+  background-image: url("../images/www/leaf-icon.svg");
+  background-position: .75em;
+  background-repeat: no-repeat;
+
 
 }
 
 .banner {
   background:
-  url(../images/www/banner.jpg) no-repeat center bottom / cover;
+  url("../images/www/banner.jpg") no-repeat center bottom / cover;
   background: linear-gradient(to rgba(16, 52, 41, .8),rgba(16, 52, 41, 0));
   background-position: top center;
 }
 
 .banner-content {
   color: #fff;
-  padding-top: 450px;
-  background-image:url(../images/www/two-leaves.svg)no repeat;
+  padding-top: 300px;
+  background-image: url("../images/www/two-leaves.svg");
+  background-repeat: no-repeat;
+  background-position: 10px 180px;
+  background-size: 100px;
 
 }
 
