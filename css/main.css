@@ -7,7 +7,8 @@ html {
   background-color: #588477;
   background-repeat: repeat;
   background-size: 64px;
-  border: 3px solid #2d5a4d;
+  border-top: 3px solid #2d5a4d;
+  border-bottom: 3px solid #2d5a4d;
 
 }
 
@@ -20,12 +21,10 @@ html {
 }
 
 .nav a {
-  text-decoration: none;
-  display: inline-block;
   background-color: #467366;
   color: white;
   align-content: center;
-  border: 3px #2d5a4d solid;
+  border: 3px solid #2d5a4d;
   border-radius: 8px;
 }
 
@@ -41,7 +40,7 @@ html {
 
 .banner {
   background:
-    linear-gradient(to bottom, rgba(16, 52, 41, 0), rgba(16, 52, 41, .8)),
+    linear-gradient(to bottom, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0) 50%),
     url("../images/banner.jpg") no-repeat center bottom / cover;
 }
 
